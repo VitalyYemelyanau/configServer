@@ -1,7 +1,7 @@
 service:
   profile: history-service
-spring:
-  management:
-    endpoints:
-      web:
-        base-path: managment
+
+management:
+  endpoints:
+    web:
+      base-path: /managment
