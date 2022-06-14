@@ -1,1 +1,2 @@
-
+service:
+  profile: user-service-dev
