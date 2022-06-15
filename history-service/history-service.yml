@@ -6,6 +6,6 @@ management:
     web:
       base-path: /managment
       exposure:
-        include: health,info,beans,conditions,env
+        include: health,info,beans,conditions,env,refresh
         #exclude: health,info,beans,conditions,env     
       
