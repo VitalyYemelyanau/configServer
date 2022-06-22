@@ -1,5 +1,8 @@
 service:
   profile: notification-service
+
+server:
+  port: 8083
   
 eureka:
  instance:
