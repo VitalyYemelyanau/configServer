@@ -13,7 +13,7 @@ management:
         include: health,info,beans,conditions,env,refresh
         #exclude: health,info,beans,conditions,env     
     health:
-      show-details: "ALWAYS" 
+      show-details: always 
       
 eureka:
  instance:
