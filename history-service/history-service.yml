@@ -12,7 +12,9 @@ management:
       exposure:
         include: health,info,beans,conditions,env,refresh
         #exclude: health,info,beans,conditions,env     
-        
+    health:
+      show-details: "ALWAYS" 
+      
 eureka:
  instance:
    preferIpAddress: true
