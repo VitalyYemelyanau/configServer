@@ -5,14 +5,3 @@ service:
 server:
   port: 8081
   
-management:
-    health:
-      show-details: 'always'
-  endpoints:
-    web:
-      base-path: /managment
-      exposure:
-        include: health,info,beans,conditions,env,refresh
-        #exclude: health,info,beans,conditions,env     
-   
-
