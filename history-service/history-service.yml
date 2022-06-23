@@ -15,21 +15,4 @@ management:
         include: health,info,beans,conditions,env,refresh
         #exclude: health,info,beans,conditions,env     
    
-eureka:
- instance:
-   preferIpAddress: true
- client:
-   registerWithEureka: true
-   fetchRegistry: true
-   serviceUrl: 
-     defaultZone: 
-       http://localhost:8070/eureka/
-  
-resilience4j.circuitbreaker:
-  instances:
-    licenseService: 
-      registerHealthIndicator: true   
-      ringBufferSizeInClosedState: 5   
-      ringBufferSizeInHalfOpenState: 3 
-      waitDurationInOpenState: 60s
-      failureRateThreshold: 50 
+
