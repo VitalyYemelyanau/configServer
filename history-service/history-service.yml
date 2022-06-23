@@ -6,10 +6,11 @@ server:
   port: 8081
   
 management:
-  health:
-    show-details: 'always'
-    circuitbreakers:
-      enabled: true
+  endpoints:
+    health:
+      show-details: 'always'
+      circuitbreakers:
+        enabled: true
   endpoints:
     web:
       base-path: /managment
