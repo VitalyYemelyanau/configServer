@@ -8,6 +8,8 @@ server:
 management:
   health:
     show-details: 'always'
+    circuitbreakers:
+      enabled: true
   endpoints:
     web:
       base-path: /managment
