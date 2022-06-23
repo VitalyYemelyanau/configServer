@@ -3,6 +3,8 @@ server:
 eureka:
  instance:
    hostname: localhost
+ server:
+   enableSelfPreservation: false
  client:
    registerWithEureka: false #Tells the Config Server to not register with the Eureka service
    fetchRegistry: false  # and to not cache registry information locally
