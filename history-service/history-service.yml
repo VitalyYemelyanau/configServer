@@ -15,7 +15,7 @@ management:
 management:
   endpoint:
     health:
-      show-details: always
+      show-details: 'always'
       
 eureka:
  instance:
