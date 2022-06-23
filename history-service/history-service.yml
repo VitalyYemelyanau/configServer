@@ -7,13 +7,14 @@ server:
   
 management:
   endpoints:
+    health:
+      show-details: always
     web:
       base-path: /managment
       exposure:
         include: health,info,beans,conditions,env,refresh
         #exclude: health,info,beans,conditions,env     
-    health:
-      show-details: always 
+ 
       
 eureka:
  instance:
