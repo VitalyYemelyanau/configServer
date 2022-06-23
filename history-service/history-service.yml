@@ -10,6 +10,8 @@ management:
     circuitbreakers:
       enabled: true
   endpoint:
+    circuitbreakers:
+        enabled: true
     health:
       show-details: 'always'
   endpoints:
