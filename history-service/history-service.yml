@@ -12,7 +12,9 @@ management:
       exposure:
         include: health,info,beans,conditions,env,refresh
         #exclude: health,info,beans,conditions,env     
-
+    endpoint:
+      health:
+        show-details: always
       
 eureka:
  instance:
