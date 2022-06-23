@@ -7,8 +7,6 @@ server:
   
 management:
     health:
-      circuitbreakers:
-        enabled: true
       show-details: 'always'
   endpoints:
     web:
