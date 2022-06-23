@@ -6,9 +6,6 @@ server:
   port: 8081
   
 management:
-  endpoint:
-    circuitbreakers:
-        enabled: true
     health:
       show-details: 'always'
   endpoints:
