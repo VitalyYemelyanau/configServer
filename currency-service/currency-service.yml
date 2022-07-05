@@ -11,3 +11,6 @@ service:
     show-sql: ${SHOW_SQL:true}
     hibernate:
       ddl-auto: update
+      
+server:
+  port: 8080
