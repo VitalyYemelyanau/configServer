@@ -1,9 +1,4 @@
-service:
-  profile: history-service
-  encdec: '{cipher}a34922249bc684925e073373d41fec32024a9df843baabe8e548de672da7aae6d6bdccfcb1956034ffbdc2bf0283ee7f'
 
-server:
-  port: 8081
   
 management:
   health:
@@ -19,18 +14,7 @@ management:
       exposure:
         include: health,info,beans,conditions,env,refresh
         #exclude: health,info,beans,conditions,env     
-   
-
-eureka:
- instance:
-   preferIpAddress: true
- client:
-   registerWithEureka: true
-   fetchRegistry: true
-   serviceUrl: 
-     defaultZone: 
-       http://localhost:8070/eureka/
-  
+    
 resilience4j:
   circuitbreaker:
     instances:
