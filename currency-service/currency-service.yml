@@ -2,7 +2,7 @@ service:
   testmessage: Test message from currency-service
   testEncryptedMessage: '{cipher}5098c64b39e1431255794de534c864e985bd5eb470fb848f4e24590d168f05aa8a77bc25b2a7796a92dcfdef005dcb356d780610972acd63c89114dc42e3b75e'
   
-  spring:
+spring:
   datasource:
     url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:currencyExchange}?useSSL=false&allowPublicKeyRetrieval=true
     username: ${MYSQL_USER:user}
