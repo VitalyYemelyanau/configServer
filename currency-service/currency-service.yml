@@ -1,1 +1,2 @@
-service.testmessage = Test message from currency-service
+service:
+  testmessage: Test message from currency-service
