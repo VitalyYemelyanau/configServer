@@ -3,4 +3,4 @@ server:
   
 english:
   numberOfQuestionInTest: 13
-  somepass: '{cipher}a064aaefc1f1b3f6f9941da3e0430c7052bd469409c4d762f6cee787bbc85d3a'
+  somepass: '{cipher}8c8fdb7feedf0b006a512e62ff526884ab5244654ebc3b15411431c112751856'
