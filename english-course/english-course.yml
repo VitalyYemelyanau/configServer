@@ -2,5 +2,5 @@ server:
   port: 8099
   
 english:
-  numberOfQuestionInTest: 10
+  numberOfQuestionInTest: 11
   somepass: '{cipher}a064aaefc1f1b3f6f9941da3e0430c7052bd469409c4d762f6cee787bbc85d3a'
