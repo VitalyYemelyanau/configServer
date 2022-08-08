@@ -4,3 +4,13 @@ server:
 english:
   numberOfQuestionInTest: 13
   somepass: '{cipher}8c8fdb7feedf0b006a512e62ff526884ab5244654ebc3b15411431c112751856'
+
+eureka:
+ instance:
+   preferIpAddress: true
+ client:
+   registerWithEureka: true
+   fetchRegistry: true
+   serviceUrl: 
+     defaultZone: 
+       ${EUREKA_SERVER_URI}
