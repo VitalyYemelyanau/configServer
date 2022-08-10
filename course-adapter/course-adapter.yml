@@ -9,4 +9,4 @@ eureka:
    fetchRegistry: true
    should-unregister-on-shutdown: true
    serviceUrl: 
-     defaultZone: http://${EUREKA_SERVER:10.25.128.25}:8070/eureka/  
+     defaultZone: http://${EUREKA_SERVER:localhost}:8070/eureka/  
