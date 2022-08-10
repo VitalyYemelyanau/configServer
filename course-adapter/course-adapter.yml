@@ -37,21 +37,21 @@ resilience4j:
         failureRateThreshold: 50 
      
 #from project
-spring:
-  cloud:
-    circuitbreaker:
-      resilience4j:
-        enabled: true
+#spring:
+#  cloud:
+#    circuitbreaker:
+#      resilience4j:
+#        enabled: true
 
 
 
-resilience4j:
-  circuitbreaker:
-    configs:
-      shared:
-        sliding-window-type: count_based
-        sliding-window-size: 3
-        failure-rate-threshold: 50
-    instances:
-      licenseService:
-        base-config: shared     
+#resilience4j:
+#  circuitbreaker:
+#    configs:
+#      shared:
+#        sliding-window-type: count_based
+#        sliding-window-size: 3
+#        failure-rate-threshold: 50
+#    instances:
+#      licenseService:
+#        base-config: shared     
