@@ -27,3 +27,4 @@ spring:
         binder:
           zkNodes: localhost
           brokers: localhost
+          autoCreateTopics: true
