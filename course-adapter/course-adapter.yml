@@ -2,10 +2,14 @@ spring:
   cloud:
     stream:
       bindings:
-        input:
-          destination: engQuestChangeTopic
-          content-type: application/json
-          group: licensingGroup
+        publish-out-0:
+          destination: publisher_channel
+        subscribe-in-0:
+          destination: subscriber_channel
+        process-in-0:
+          destination: publisher_channel
+        process-out-0:
+          destination: subscriber_channel
       kafka:
         binder:
           zkNodes: localhost
