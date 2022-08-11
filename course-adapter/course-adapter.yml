@@ -3,13 +3,13 @@ spring:
     stream:
       bindings:
         publish-out-0:
-          destination: publisher_channel
+          destination: engQuestChangeTopic
         subscribe-in-0:
-          destination: subscriber_channel
+          destination: engQuestChangeTopic
         process-in-0:
-          destination: publisher_channel
+          destination: engQuestChangeTopic
         process-out-0:
-          destination: subscriber_channel
+          destination: engQuestChangeTopic
       kafka:
         binder:
           zkNodes: localhost
