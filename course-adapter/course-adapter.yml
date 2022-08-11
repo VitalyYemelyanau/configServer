@@ -1,6 +1,8 @@
 spring:
   cloud:
     stream:
+      function:
+        definition: process;subscribe
       bindings:
         publish-out-0:
           destination: engQuestChangeTopic
