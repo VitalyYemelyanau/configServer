@@ -16,15 +16,4 @@ eureka:
 #     defaultZone: http://${EUREKA_SERVER:10.25.128.25}:8070/eureka/
      defaultZone: http://${EUREKA_SERVER:localhost}:8070/eureka/
 
-spring:
-  cloud:
-    stream:
-      bindings:
-        output:
-          destination: engQuestChangeTopic
-          content-type: application/json
-      kafka:
-        binder:
-          zkNodes: localhost
-          brokers: localhost
-          autoCreateTopics: true
+
